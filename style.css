@@ -1,0 +1,63 @@
+form {
+  background-color: rgb(255, 255, 255);
+  height: 50vh;
+  width: 20vw;
+  border-radius: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url(https://wallpapercave.com/wp/wp3558104.jpg);
+  height: 100vh;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  
+  margin: 0px;
+  padding: 0px;
+}
+
+.Input {
+  background-color: transparent;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px aqua;
+  font-size: 18px;
+  outline: 0;
+  margin: 1vw;
+}
+
+.Inputs {
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: Ubuntu;
+  color: #a794ec;
+}
+
+h3 {
+  font-family: Ubuntu;
+  color: #cabef8;
+}
+
+.BTN-submit {
+    background-color: #a794ec;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 20px;
+}
